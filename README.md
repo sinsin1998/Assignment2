@@ -19,6 +19,12 @@ In summary, while DGNSS remains the most practical choice for smartphone navigat
 
 ### Task 2 – GNSS in Urban Areas  
 
+To begin the analysis, the navSolutionResults.mat file—generated from the “Urban.dat” dataset in Assignment 1—is loaded to retrieve essential GNSS navigation data. This includes information such as pseudorange measurements, satellite positions, satellite clock corrections, and corresponding timestamps for each epoch. These data serve as the foundation for further processing and accuracy enhancement in GNSS localization.
+
+Next, the Skymask data is loaded from a CSV file (e.g., skymask_A1_urban.csv). The Skymask provides environmental information regarding potential signal obstructions around the GNSS receiver, especially relevant in urban canyon scenarios. Specifically, it records the minimum elevation angle at which satellite signals can be received as a function of azimuth angle. This allows us to determine which satellite signals are likely to be blocked due to surrounding buildings or obstacles.
+
+Upon loading the Skymask file, a polar plot or 2D graph is generated where the azimuth angle (in degrees) is represented on the x-axis and the corresponding blocking elevation angle (in degrees) is represented on the y-axis. This plot visually illustrates the angular regions of the sky where satellite visibility is restricted. Such information is critical for identifying non-line-of-sight (NLOS) satellite signals, which can degrade positioning accuracy if not properly accounted for.
+
 
 
 ### Task 3 – GPS RAIM (Receiver Autonomous Integrity Monitoring)  
