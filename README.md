@@ -3,7 +3,7 @@
 ### Task 1 – Differential GNSS Positioning  
 ```  
 Model: Deepseek
-Prompt: Please advise me to contrast the pros and cons of GNSS techniques, and I will give them setp-by-step.
+Prompt: Please advise me on how to systematically compare the advantages and disadvantages of various GNSS techniques, particularly in the context of remote sensing and GNSS seismology. I intend to present the analysis step by step, so suggestions on how to structure the comparison, key technical aspects to consider, and potential application scenarios would be highly appreciated.
 ```  
 
 
