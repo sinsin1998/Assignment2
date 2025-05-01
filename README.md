@@ -43,7 +43,8 @@ Subsequently, the Skymask data is processed by applying a correction to the elev
 The consistency of GPS signals received from multiple satellites can be evaluated using the Receiver Autonomous Integrity Monitoring (RAIM) algorithm. RAIM enhances reliability by cross-checking the measurements from different satellites and detecting any anomalies or inconsistencies in the data. If discrepancies are found, users are promptly alerted to potential integrity issues in the positioning solution. To implement RAIM, the GNSS navigation data is first loaded, and the RAIM algorithm is then integrated into the Weighted Least Squares (WLS) positioning framework, enabling real-time fault detection by monitoring the residuals of the position estimation process, showed in task3.m 
 
 We have provided code to identify inconsistency in received GPS signals. The satellite positions throughout the entire data recording period are shown as follows:
-![image](https://github.com/user-attachments/assets/0e53e207-3ff5-4096-9c69-a092acb97f80)
+
+<img src="https://github.com/user-attachments/assets/0e53e207-3ff5-4096-9c69-a092acb97f80" alt="image" width="400">
 
 ### Task 4 – LEO Satellites for Navigation
 ```  
