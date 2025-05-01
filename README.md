@@ -1,5 +1,9 @@
 ## Assignment 2
 
+**Name:** ZHANGDi 24046964R
+
+**Date:** 12 March 2025  
+
 ### Task 1 – Differential GNSS Positioning  
 ```  
 Model: Deepseek
