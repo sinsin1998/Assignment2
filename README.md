@@ -1,9 +1,11 @@
 ## Assignment 2
 
 ### Task 1 – Differential GNSS Positioning  
-#### Deepseek
-####  Prompt Used
-Please give me some advices to compare the pros and cons of GNSS techniques, and I will give them setp-by-step.
+```  
+Model: Deepseek
+Prompt: Please advise me to contrast the pros and cons of GNSS techniques, and I will give them setp-by-step.
+```  
+
 
 Global Navigation Satellite Systems (GNSS) have transformed how smartphones determine location, but not all positioning techniques are equally suited for mobile navigation. Among the most widely used methods, Differential GNSS (DGNSS) strikes a practical balance for everyday use. By leveraging corrections from nearby reference stations, DGNSS improves accuracy to within 1–3 meters—far better than standard GNSS—without demanding excessive processing power. This makes it ideal for consumer applications like turn-by-turn navigation and location-based services. However, its reliance on base stations means performance degrades in remote areas, and it still struggles in urban canyons where signals are obstructed. While not as precise as more advanced techniques, DGNSS remains the most accessible and energy-efficient option for smartphones today.
 
