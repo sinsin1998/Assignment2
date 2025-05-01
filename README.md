@@ -22,7 +22,12 @@ In summary, while DGNSS remains the most practical choice for smartphone navigat
 
 ### Task 3 – GPS RAIM (Receiver Autonomous Integrity Monitoring)  
 
-### Task 4 – LEO Satellites for Navigation  
+### Task 4 – LEO Satellites for Navigation
+```  
+Model: Deepseek
+Prompt: What are the key difficulties and challenges in utilizing LEO communication satellites for GNSS navigation purposes, and how should we approach these technical considerations.
+```  
+
 Low Earth Orbit (LEO) satellites have revolutionized global communication, enabling high-speed internet and low-latency data transmission through constellations like Starlink and OneWeb. Given their rapid orbital movement and strong signal strength, researchers have explored whether these satellites could also support navigation, potentially complementing or even augmenting traditional Global Navigation Satellite Systems (GNSS). However, using LEO communication satellites for positioning introduces several technical and operational challenges that complicate their adoption as a reliable navigation solution.
 
 One of the primary difficulties lies in the inherent design differences between LEO communication satellites and dedicated GNSS satellites. Traditional GNSS systems, such as GPS or Galileo, operate in Medium Earth Orbit (MEO), where their slower orbital speed and predictable trajectories allow for stable signal transmission and precise orbital modeling. In contrast, LEO satellites move at much higher velocities, completing an orbit in roughly 90 to 120 minutes. This rapid motion introduces significant Doppler shifts in their signals, which, while beneficial for detecting position changes, complicates signal processing and requires advanced algorithms to compensate for frequency variations. Additionally, because LEO constellations are primarily optimized for communication rather than navigation, their signals lack the precise timing and geodetic reference frameworks that GNSS signals provide, making accurate positioning more difficult to achieve.
