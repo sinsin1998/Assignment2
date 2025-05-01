@@ -3,7 +3,7 @@
 ### Task 1 – Differential GNSS Positioning  
 ```  
 Model: Deepseek
-Prompt: Please advise me on how to systematically compare the advantages and disadvantages of various GNSS techniques, particularly in the context of remote sensing and GNSS seismology. I intend to present the analysis step by step, so suggestions on how to structure the comparison, key technical aspects to consider, and potential application scenarios would be highly appreciated.
+Prompt: Could you please advise me on how to contrast the advantages and limitations of different GNSS techniques? I would like to focus on the following four methods: Differential GNSS (DGNSS), Real-Time Kinematic (RTK), Precise Point Positioning (PPP), and PPP-RTK. Specifically, I’m looking to understand their differences in terms of positioning accuracy, convergence time, infrastructure requirements, and suitability for various remote sensing or geophysical applications, such as GNSS seismology.
 ```  
 
 
