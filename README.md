@@ -29,7 +29,8 @@ Upon loading the Skymask file, a polar plot or 2D graph is generated where the a
 
 
 Subsequently, the Skymask data is processed by applying a correction to the elevation angles, thereby generating the final Skymask profile used for satellite visibility assessment.
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/52baf193-a2a5-4f7c-9219-89f5e358a2ec)
+
 
 
 
