@@ -29,12 +29,12 @@ Next, the Skymask data is loaded from a CSV file (e.g., skymask_A1_urban.csv). T
 
 Upon loading the Skymask file, a polar plot or 2D graph is generated where the azimuth angle (in degrees) is represented on the x-axis and the corresponding blocking elevation angle (in degrees) is represented on the y-axis. This plot visually illustrates the angular regions of the sky where satellite visibility is restricted. Such information is critical for identifying non-line-of-sight (NLOS) satellite signals, which can degrade positioning accuracy if not properly accounted for.
 
+
 <img src="https://github.com/user-attachments/assets/e832f09b-1c24-45f6-a435-33991e4009b5" alt="image" width="400">
 
-
-
 Subsequently, the Skymask data is processed by applying a correction to the elevation angles, thereby generating the final Skymask profile used for satellite visibility assessment.
-![image](https://github.com/user-attachments/assets/52baf193-a2a5-4f7c-9219-89f5e358a2ec)
+
+<img src="https://github.com/user-attachments/assets/52baf193-a2a5-4f7c-9219-89f5e358a2ec" alt="image" width="400">
 
 
 
