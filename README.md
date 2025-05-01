@@ -24,7 +24,8 @@ To begin the analysis, the navSolutionResults.mat file—generated from the “U
 Next, the Skymask data is loaded from a CSV file (e.g., skymask_A1_urban.csv). The Skymask provides environmental information regarding potential signal obstructions around the GNSS receiver, especially relevant in urban canyon scenarios. Specifically, it records the minimum elevation angle at which satellite signals can be received as a function of azimuth angle. This allows us to determine which satellite signals are likely to be blocked due to surrounding buildings or obstacles.
 
 Upon loading the Skymask file, a polar plot or 2D graph is generated where the azimuth angle (in degrees) is represented on the x-axis and the corresponding blocking elevation angle (in degrees) is represented on the y-axis. This plot visually illustrates the angular regions of the sky where satellite visibility is restricted. Such information is critical for identifying non-line-of-sight (NLOS) satellite signals, which can degrade positioning accuracy if not properly accounted for.
-![image]([https://github.com/user-attachments/assets/f1706498-aae2-44cb-a16f-5ed4f403cc06](https://github.com/sinsin1998/Assignment2/blob/main/skymask.png))
+![image](https://github.com/user-attachments/assets/e832f09b-1c24-45f6-a435-33991e4009b5)
+
 
 
 Subsequently, the Skymask data is processed by applying a correction to the elevation angles, thereby generating the final Skymask profile used for satellite visibility assessment.
