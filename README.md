@@ -44,7 +44,29 @@ In conclusion, while LEO satellites present an intriguing opportunity to enhance
 
 
 ### Task 5 – GNSS Remote Sensing  
-####  Prompt Used
+```  
+Model: Deepseek
+Prompt: PLease：
+Analyze GNSS data for crustal deformation monitoring
+Explore how high-precision GNSS measurements help detect tectonic plate movements and ground displacement before, during, and after earthquakes.
+
+Integration with seismic networks
+Discuss the advantages of combining GNSS with traditional seismometers to improve real-time earthquake detection and early warning systems.
+
+Use of GNSS for tsunami early warning
+Investigate how GNSS-derived vertical displacements in coastal areas can help identify tsunami-generating earthquakes.
+
+Application in slow slip event detection
+Examine how GNSS can reveal slow slip events that are not easily detectable by traditional seismology methods.
+
+Contribution to earthquake hazard modeling
+Evaluate how long-term GNSS data can be used to improve fault models and assess seismic hazards in high-risk regions.
+
+GNSS networks in post-seismic analysis
+Study the role of GNSS in observing post-seismic relaxation and understanding stress redistribution after major earthquakes
+```
+
+
 
 
 
